@@ -1,0 +1,21 @@
+{
+  "name": "shught",
+  "version": "0.0.0",
+  "description": "Shutdown middleware for express applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "keywords": [
+    "shutdown",
+    "express",
+    "middleware"
+  ],
+  "author": "Erik Toth <totherik@gmail.com>",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "debuglog": "^1.0.1",
+    "express": "^4.4.3",
+    "rx": "^2.2.26"
+  }
+}
